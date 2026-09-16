@@ -1,0 +1,59 @@
+# Local Android/Gradle state
+/.gradle/
+/.kotlin/
+/.idea/
+/.tools/
+**/build/
+**/local.properties
+*.iml
+*.hprof
+
+# Private signing material and credentials
+/.signing/
+**/signing.properties
+**/keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+!signing.properties.example
+
+# Generated binaries and local delivery bundles
+/dist/
+/verification-output/
+/audio-analysis/output/
+*.apk
+*.aab
+*.apks
+*.idsig
+*.zip
+*.jar
+**/mapping.txt
+!gradle/wrapper/gradle-wrapper.jar
+# Only this verified release APK is intentionally published in Git.
+!/releases/1.0.0/ElectronicTadpole-1.0.0-release.apk
+
+# Private measurement inputs and disposable analysis caches
+/reference/*
+!/reference/README.md
+/audio-analysis/model/*_frames.json
+/audio-analysis/model/v1.2_baseline.json
+
+# Python, editor and OS files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini

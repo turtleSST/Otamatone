@@ -1,0 +1,12 @@
+<resources>
+    <style name="Base.Theme.Tadpole" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F5F1E8</item>
+        <item name="android:navigationBarColor">#F5F1E8</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#F5F1E8</item>
+        <item name="android:colorAccent">#B95536</item>
+    </style>
+    <style name="Theme.Tadpole" parent="Base.Theme.Tadpole" />
+</resources>

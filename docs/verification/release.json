@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "version_code": 7,
+  "apk_sha256": "82b1df74c9b2a693ad1896f6ad72b03a35266229abba95feee57372598cba2f3",
+  "apk_bytes": 1264502,
+  "signing_certificate_sha256": "1335335950cdc0ab643292613fd08a8ed692766da4f332d064af45f83baa4f0a",
+  "release_smoke_passed": true,
+  "non_debuggable": true,
+  "r8_minified": true,
+  "resources_shrunk": true,
+  "tests": {
+    "testDebugUnitTest": {
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 29
+    },
+    "testReleaseUnitTest": {
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 29
+    },
+    "android_debug": {
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 15
+    }
+  },
+  "lint": "No issues found",
+  "audio_windows": {
+    "LOW": 121,
+    "MID": 108,
+    "HIGH": 155
+  },
+  "weighted_harmonic_error_db": {
+    "LOW": 1.7129947620132349,
+    "MID": 1.2546297563803765,
+    "HIGH": 1.0574036734920653
+  },
+  "moving_audio_windows": 129
+}

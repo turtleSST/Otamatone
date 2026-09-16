@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "version_code": 7,
+  "apk_sha256": "82b1df74c9b2a693ad1896f6ad72b03a35266229abba95feee57372598cba2f3",
+  "apk_bytes": 1264502,
+  "signing_certificate_sha256": "1335335950cdc0ab643292613fd08a8ed692766da4f332d064af45f83baa4f0a",
+  "package": "com.tadpole.instrument",
+  "source_tag": "v1.0.0",
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "debuggable": false
+}
